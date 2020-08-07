@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 01 - Sugar Town</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="logo">Sugar Town <img src="https://image.flaticon.com/icons/svg/860/860882.svg" alt="" id="img-logo"></h1>
+    </header>
+
+    <nav>
+        <a href=""><img src="https://image.flaticon.com/icons/svg/860/860882.svg" alt="" id="img-link"> Cadastro</a>
+        <a href="consulta.html"><img src="https://image.flaticon.com/icons/svg/860/860882.svg" alt="" id="img-link"> Consulta</a>
+    </nav>
+
+    <main>
+        <center>
+        <h1>Cadastro de novo produto</h1>
+        </center>
+        <div id="tela-de-cadastro">
+            <form align="center">
+                <label for="serie">Numero de Série:</label><br>
+                <input type="text" id="serie"  class="navigator" oninput="ponto()" maxlength="7">
+                <br>
+                <br>
+                <label for="name">Nome do Produto:</label><br>
+                <input type="text" id="name" class="navigator">
+                <br>
+                <br>
+                <label for="name">Preço: </label><br>
+                <input type="text" id="price" class="navigator">
+                <br>
+                <br>
+                <label for="tipo">Tipo do Produto</label><br>
+                <select id="tipo" class="navigator">
+                    <optgroup>
+                        <option value="opcao0" class="navigator">Escolha uma opção</option>
+                        <option value="BoloConfeitado" class="navigator">Bolo Confeitado</option>
+                        <option value="Bolo Simples" class="navigator">Bolo simples</option>
+                        <option value="Doce De Festa" class="navigator">Doce de festa</option>
+                        <option value="Torta" class="navigator">Torta</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <label for="descricao">Descrição do Produto</label><br>
+            <textarea name="" id="descricao"  class="navigator"></textarea>
+            <br>
+            <br>
+            </form>
+                <center>
+                <button id="btn" onclick="cadastro()">Salvar</button>
+                </center>
+        </div>
+    </main>
+
+    <footer><p id="copy">By Camila Godoy &copy;</p></footer>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    
+</body>
+</html>
