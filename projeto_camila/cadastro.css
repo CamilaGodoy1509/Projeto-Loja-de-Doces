@@ -1,0 +1,92 @@
+
+#tela-de-cadastro {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 30vw;
+    padding: 20px;
+    border-radius: 20px;
+    border: #cccccc solid 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#serie {
+        border-radius: 5px;
+        width: 30vw;
+        height: 3vh;
+        border: #cccccc solid 1px;
+        box-shadow: #ccc 1px 1px 1px ;
+    }
+
+#name {
+    border-radius: 5px;
+    width: 30vw;
+    height: 3vh;
+    border: #cccccc solid 1px;
+    box-shadow: #ccc 1px 1px 1px ;
+}
+
+#price {
+    border-radius: 5px;
+    width: 30vw;
+    height: 3vh;
+    border: #cccccc solid 1px;
+    box-shadow: #ccc 1px 1px 1px ;
+}
+
+#tipo {
+    border-radius: 5px;
+    width: 30vw;
+    height: 3vh;
+    border: #cccccc solid 1px;
+    box-shadow: #ccc 1px 1px 1px ;
+}
+
+#descricao {
+    border-radius: 5px;
+    border: #cccccc solid 1px;
+    box-shadow: #ccc 1px 1px 1px;
+    width: 30vw;
+    height: 10vh;
+    resize: none;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+textarea:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.navigator {
+    font-family: 'Montserrat', sans-serif;
+    color: #746e5d;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#ffebcd ;
+    padding: 10px 20px;
+    border: #cccccc solid 1px;
+    box-shadow: #ccc 1px 1px 1px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+button:hover {
+    width: 100px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    margin-top: -2px;
+}
