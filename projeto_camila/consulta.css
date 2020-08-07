@@ -1,0 +1,48 @@
+main {
+    height: 72vh;
+    overflow: auto;
+}
+
+main label {
+    padding-left: 10px;
+}
+
+#filter {
+    border-radius: 5px;
+    width: 30vw;
+    height: 3vh;
+    border: #cccccc solid 1px;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.navigator {
+    font-family: 'Montserrat', sans-serif;
+    color: #746e5d;
+}
+
+main table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+th {
+    background-color: #ffcebd;
+    width: 40vw;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: #e6e6fa;
+    text-shadow: #ffffff 2px 3px 2px;
+}
